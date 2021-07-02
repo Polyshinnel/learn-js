@@ -1,22 +1,14 @@
 "use strict";
 
-const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?','');
-let personalMovieDB = {};
+let num = 50;
 
-personalMovieDB.count = numberOfFilms;
-personalMovieDB.movies = {};
-personalMovieDB.actors = {};
-personalMovieDB.genres = [];
-personalMovieDB.privat = false;
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while(num<55);
 
-let lastMoviesName = prompt('Один из последних просмотренных фильмов?','');
-let lastMoviesNameRating = prompt('На сколько оцените его?','');
-
-personalMovieDB.movies[lastMoviesName] = lastMoviesNameRating;
-
-lastMoviesName = prompt('Один из последних просмотренных фильмов?','');
-lastMoviesNameRating = prompt('На сколько оцените его?','');
-
-personalMovieDB.movies[lastMoviesName] = lastMoviesNameRating;
-
-console.log(personalMovieDB);
+for(let i = 1; i < 8; i++){
+    console.log(num);
+    num++;
+}
